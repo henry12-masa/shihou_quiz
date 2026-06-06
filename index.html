@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>司法試験クイズ</title>
+<meta name="description" content="司法試験・予備試験対策クイズ">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1 id="pageTitle">司法試験クイズ</h1>
+  <p id="pageDesc">好きな科目を選んで挑戦しよう</p>
+</header>
+
+<nav id="quizList"></nav>
+
+<main class="layout">
+
+  <aside class="ad-box ad-left">
+    <p>スポンサーリンク</p>
+  </aside>
+
+  <section class="quiz-box">
+    <div class="status">
+      <span id="counter">1 / 50</span>
+      <span id="score">スコア: 0</span>
+    </div>
+
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+
+    <h2 id="question">読み込み中...</h2>
+
+    <div id="choices"></div>
+
+    <p id="result"></p>
+  </section>
+
+  <aside class="ad-box ad-right">
+    <p>スポンサーリンク</p>
+
+    <script async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8398161859137802"
+      crossorigin="anonymous"></script>
+
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-8398161859137802"
+      data-ad-slot="5599163841"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </aside>
+
+</main>
+
+<script src="data/kenpou.js"></script>
+<script src="data/minpou.js"></script>
+<script src="data/keihou.js"></script>
+<script src="data/minso.js"></script>
+<script src="data/keiso.js"></script>
+<script src="data/shouhou.js"></script>
+<script src="data/gyouseihou.js"></script>
+<script src="data/practice.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
